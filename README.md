@@ -1,6 +1,6 @@
 # Advent Of Code
 AoC is an advent calendar of small programming puzzles for a variety of skill sets and skill levels made by Eric Wastl. It features daily challenges split into two halves, each half rewarding you a star if you complete it. Below is my attempt at the 2021 Advent of Code:
-
+***
 ## --- Day 1: Sonar Sweep ---
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
 
@@ -81,7 +81,7 @@ H: 792 (increased)
 In this example, there are 5 sums that are larger than the previous sum.  
 
 Consider sums of a three-measurement sliding window. How many sums are larger than the previous sum?
-
+***
 ## --- Day 2: Dive! ---
 ### --- Part 1 ---
 Now, you need to figure out how to pilot this thing.
@@ -140,7 +140,7 @@ forward 2 adds 2 to your horizontal position, a total of 15. Because your aim is
 After following these new instructions, you would have a horizontal position of 15 and a depth of 60. (Multiplying these produces 900.)
 
 Using this new interpretation of the commands, calculate the horizontal position and depth you would have after following the planned course. What do you get if you multiply your final horizontal position by your final depth?
-
+***
 # --- Day 3: Binary Diagnostic ---
 ### --- Part 1 ---
 The submarine has been making some odd creaking noises, so you ask it to produce a diagnostic report just in case.
@@ -209,7 +209,7 @@ Then, to determine the CO2 scrubber rating value from the same example above:
 Finally, to find the life support rating, multiply the oxygen generator rating (23) by the CO2 scrubber rating (10) to get 230.
 
 Use the binary numbers in your diagnostic report to calculate the oxygen generator rating and CO2 scrubber rating, then multiply them together. What is the life support rating of the submarine? (Be sure to represent your answer in decimal, not binary.)
-
+***
 # --- Day 4: Giant Squid ---
 ### --- Part 1 ---
 You're already almost 1.5km (almost a mile) below the surface of the ocean, already so deep that you can't see any sunlight. What you can see, however, is a giant squid that has attached itself to the outside of your submarine.
@@ -278,7 +278,7 @@ You aren't sure how many bingo boards a giant squid could play at once, so rathe
 In the above example, the second board is the last to win, which happens after 13 is eventually called and its middle column is completely marked. If you were to keep playing until this point, the second board would have a sum of unmarked numbers equal to 148 for a final score of 148 * 13 = 1924.
 
 Figure out which board will win last. Once it wins, what would its final score be?
-
+***
 # --- Day 5: Hydrothermal Venture ---
 ### --- Part 1 ---
 You come across a field of hydrothermal vents on the ocean floor! These vents constantly produce large, opaque clouds, so it would be best to avoid them if possible.
@@ -346,7 +346,7 @@ Considering all lines from the above example would now produce the following dia
 You still need to determine the number of points where at least two lines overlap. In the above example, this is still anywhere in the diagram with a 2 or larger - now a total of 12 points.
 
 Consider all of the lines. At how many points do at least two lines overlap?
-
+***
 # --- Day 6: Lanternfish ---
 ### --- Part 1 ---
 The sea floor is getting steeper. Maybe the sleigh keys got carried this way?
@@ -407,7 +407,7 @@ Suppose the lanternfish live forever and have unlimited food and space. Would th
 After 256 days in the example above, there would be a total of 26984457539 lanternfish!
 
 How many lanternfish would there be after 256 days?
-
+***
 # --- Day 7: The Treachery of Whales ---
 ### --- Part 1 ---
 A giant whale has decided your submarine is its next meal, and it's much faster than you are. There's nowhere to run!
@@ -464,7 +464,7 @@ Move from 14 to 5: 45 fuel
 This costs a total of 168 fuel. This is the new cheapest possible outcome; the old alignment position (2) now costs 206 fuel instead.
 
 Determine the horizontal position that the crabs can align to using the least fuel possible so they can make you an escape route! How much fuel must they spend to align to that position?
-
+***
 # --- Day 8: Seven Segment Search ---
 ### --- Part 1 ---
 You barely reach the safety of the cave when the whale smashes into the cave mouth, collapsing it. Sensors indicate another exit to this cave at a much greater depth, so you have no choice but to press on.
@@ -591,7 +591,7 @@ fgae cfgab fg bagce: 4315
 Adding all of the output values in this larger example produces 61229.
 
 For each entry, determine all of the wire/segment connections and decode the four-digit output values. What do you get if you add up all of the output values?
-
+***
 # --- Day 9: Smoke Basin ---
 ### --- Part 1 ---
 These caves seem to be lava tubes. Parts are even still volcanically active; small hydrothermal vents release smoke into the caves that slowly settles like rain.
@@ -658,7 +658,7 @@ The bottom-right basin, size 9:
 Find the three largest basins and multiply their sizes together. In the above example, this is 9 * 14 * 9 = 1134.
 
 What do you get if you multiply together the sizes of the three largest basins?
-
+***
 # --- Day 10: Syntax Scoring ---
 ### --- Part 1 ---
 You ask the submarine to determine the best route out of the deep-sea cave, but it only replies:
@@ -757,7 +757,7 @@ The five lines' completion strings have total scores as follows:
 Autocomplete tools are an odd bunch: the winner is found by sorting all of the scores and then taking the middle score. (There will always be an odd number of scores to consider.) In this example, the middle score is 288957 because there are the same number of scores smaller and larger than it.
 
 Find the completion string for each incomplete line, score the completion strings, and sort the scores. What is the middle score?
-
+***
 # --- Day 11: Dumbo Octopus ---
 ### --- Part 1 ---
 You enter a large cavern full of rare bioluminescent dumbo octopuses! They seem to not like the Christmas lights on your submarine, so you turn them off for now.
@@ -1099,7 +1099,7 @@ After step 195:
 0000000000
 ~~~
 If you can calculate the exact moments when the octopuses will all flash simultaneously, you should be able to navigate through the cavern. What is the first step during which all octopuses flash?
-
+***
 # --- Day 12: Passage Pathing ---
 ### --- Part 1 ---
 With your submarine's subterranean subsystems subsisting suboptimally, the only way you're getting out of this cave anytime soon is by finding a path yourself. Not just a path - the only way to know if you've found the best path is to find all of them.
